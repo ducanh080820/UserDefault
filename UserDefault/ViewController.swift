@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         UserDefaults.standard.set("abc", forKey: "name")
         
         let str = UserDefaults.standard.object(forKey: "name")
+        
         print(number)
         print(name!)
         print(value)
